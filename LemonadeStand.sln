@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonadeStand.UI", "LemonadeStand.UI\LemonadeStand.UI.csproj", "{96197D3D-BCAB-4285-985B-7D5CF992EC47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonadeStand.BLL", "LemonadeStand.BLL\LemonadeStand.BLL.csproj", "{AE074691-2654-4188-BF54-602943C2BE51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96197D3D-BCAB-4285-985B-7D5CF992EC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96197D3D-BCAB-4285-985B-7D5CF992EC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96197D3D-BCAB-4285-985B-7D5CF992EC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96197D3D-BCAB-4285-985B-7D5CF992EC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE074691-2654-4188-BF54-602943C2BE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE074691-2654-4188-BF54-602943C2BE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE074691-2654-4188-BF54-602943C2BE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE074691-2654-4188-BF54-602943C2BE51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
