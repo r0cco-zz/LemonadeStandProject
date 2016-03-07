@@ -10,7 +10,7 @@ namespace LemonadeStand.UI
     {
         static void Main(string[] args)
         {
-            var gf = new GameFlow;
+            var gf = new GameFlow();
             gf.PlayGame();
         }
     }
