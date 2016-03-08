@@ -14,5 +14,6 @@ namespace LemonadeStand.BLL.GameLogic
         public int NumberOfLemons { get; set; }
         public int PoundsOfSugar { get; set; }
         public int NumberOfIceCubes { get; set; }
+        public List<DailyResult> DailyResults { get; set; }
     }
 }

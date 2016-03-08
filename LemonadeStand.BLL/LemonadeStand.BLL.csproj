@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameLogic\DailyResult.cs" />
     <Compile Include="GameLogic\Player.cs" />
     <Compile Include="GameLogic\Weather.cs" />
     <Compile Include="GameLogic\WeatherType.cs" />
