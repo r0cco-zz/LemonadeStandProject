@@ -18,16 +18,17 @@ namespace LemonadeStand.UI
 
         public void PlayGame()
         {
+            Animations.DisplayStartScreen();
             GetPlayerName();
         }
 
         private void GetPlayerName()
         {
             Console.Write("What is your name? : ");
-            _model.Player1Name = Console.ReadLine();
-            if (_model.Player1Name == String.Empty)
+            _player.Name = Console.ReadLine();
+            if (_player.Name == string.Empty)
             {
-                _model.Player1Name = "Player1";
+                _player.Name = "Player1";
             }
             Console.Clear();
         }
